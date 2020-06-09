@@ -1,0 +1,1 @@
+# ShopFullyEngageSDK podspec
