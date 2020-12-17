@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
     spec.public_header_files = "ShopFullyEngageSDK.framework/Headers/*.h"
 
-    spec.ios.vendored_frameworks = 'ShopFullyEngageSDK.framework', 'Frameworks/PlotProjects.framework', 'Frameworks/StreamFully.framework', 'Frameworks/Localytics.framework'
+    spec.ios.vendored_frameworks = 'ShopFullyEngageSDK.framework', 'Frameworks/PlotProjects.framework', 'Frameworks/StreamFully.framework', 'Frameworks/Localytics.xcframework'
 
     spec.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore', 'SystemConfiguration', 'MediaPlayer', 'AdSupport',
     'CoreTelephony', 'CoreLocation', 'CoreMedia', 'AVFoundation', 'SafariServices', 'WebKit'
