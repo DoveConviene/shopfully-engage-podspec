@@ -19,6 +19,9 @@ Pod::Spec.new do |spec|
 
     spec.ios.vendored_frameworks = 'ShopperBranding.framework'
 
+    spec.dependency 'TeadsSDK', '4.8.4'
+    spec.dependency 'Google-Mobile-Ads-SDK', '7.69.0'
+
     spec.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore', 'SystemConfiguration', 'MediaPlayer', 'AdSupport',
     'CoreTelephony', 'CoreLocation', 'CoreMedia', 'AVFoundation', 'SafariServices', 'WebKit'
 
