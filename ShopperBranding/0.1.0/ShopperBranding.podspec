@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
     spec.version          = '0.1.0'
     spec.summary          = 'ShopperBranding iOS'
     spec.description      = <<-DESC
-    ShopperBranding for iOS
+    A component that allows you to implement ShopperBranding, minimizing code duplication and integration effort
     DESC
     
     spec.swift_version = '5.0'
@@ -13,14 +13,17 @@ Pod::Spec.new do |spec|
     spec.author           = { 'ShopFully Group Mobile Team' => 'mobile-dev@shopfullygroup.com' }
     spec.ios.deployment_target = '10.0'
     
+    spec.requires_arc = true
+    spec.static_framework = true
+
     spec.source           = { :http => 'https://repository-engage.shopfully.tech/ShopperBranding/0.1.0/ShopperBranding-0.1.0.zip' }
 
     spec.public_header_files = "ShopperBranding.framework/Headers/*.h"
 
     spec.ios.vendored_frameworks = 'ShopperBranding.framework'
 
-    spec.dependency 'TeadsSDK', '4.8.4'
-    spec.dependency 'Google-Mobile-Ads-SDK', '7.69.0'
+    spec.dependency 'TeadsSDK', '~> 4.8.4'
+    spec.dependency 'Google-Mobile-Ads-SDK', '~> 7.69.0'
 
     spec.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore', 'SystemConfiguration', 'MediaPlayer', 'AdSupport',
     'CoreTelephony', 'CoreLocation', 'CoreMedia', 'AVFoundation', 'SafariServices', 'WebKit'
