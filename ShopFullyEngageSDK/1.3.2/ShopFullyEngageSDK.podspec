@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
     spec.author           = { 'ShopFully Group Mobile Team' => 'mobile-dev@shopfullygroup.com' }
     spec.ios.deployment_target = '10.0'
     
-    spec.source           = { :http => 'https://repository-engage.shopfully.tech/1.3.2/ShopFullyEngageSDK-1.3.2.zip' }
+    spec.source           = { :http => 'https://repository-engage.shopfully.tech/ShopFullyEngageSDK/1.3.2/ShopFullyEngageSDK-1.3.2.zip' }
 
     spec.public_header_files = "ShopFullyEngageSDK.framework/Headers/*.h"
 
