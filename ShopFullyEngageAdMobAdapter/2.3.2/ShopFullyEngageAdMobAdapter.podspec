@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
     spec.public_header_files = "ShopFullyEngageAdMobAdapter.framework/Headers/*.h"
 
-    spec.dependency 'Google-Mobile-Ads-SDK', '~> 8.12.0'
+    spec.dependency 'Google-Mobile-Ads-SDK', '~> 8'
     spec.dependency 'ShopFullyEngageSDK', '2.3.2'
 
 end
