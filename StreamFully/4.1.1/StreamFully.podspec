@@ -19,6 +19,8 @@ Pod::Spec.new do |spec|
 
     spec.public_header_files = "StreamFully.framework/Headers/*.h"
 
+    spec.ios.vendored_frameworks = 'StreamFully.framework'
+
     spec.frameworks = 'UIKit', 'CoreTelephony', 'CoreLocation', 'CoreMedia', 'ADSupport'
 
     spec.subspec 'Core' do |sp|
