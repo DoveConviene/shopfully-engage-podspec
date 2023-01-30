@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   
     spec.source_files = 'ShopFullyEngageAdMobAdapter/**/*.{h,m,swift}'
   
-    spec.dependency 'Google-Mobile-Ads-SDK', '~> 8.12.0'
+    spec.dependency 'Google-Mobile-Ads-SDK', '~> 8'
     spec.dependency 'ShopFullyEngageSDK', spec.version.to_s
   
     spec.static_framework = true
