@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
     spec.license          = { :type => 'Copyright', :file => 'LICENSE' }
     spec.author           = { 'ShopFully Group Mobile Team' => 'mobile-dev@shopfullygroup.com' }
     spec.source           = { :http => 'https://repository-engage.shopfully.tech/StreamFully/' + spec.version.to_s + '/StreamFully-' + spec.version.to_s + '.zip' }
-    spec.ios.vendored_frameworks = 'StreamFully.framework'
+    spec.ios.vendored_frameworks = 'StreamFully.xcframework'
     spec.public_header_files = 'StreamFully.framework/Headers/*.h'
 
     spec.ios.deployment_target = '12.0'

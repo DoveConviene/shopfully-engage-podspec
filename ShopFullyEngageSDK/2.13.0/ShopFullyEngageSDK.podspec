@@ -28,5 +28,5 @@ Pod::Spec.new do |spec|
     # Vendored frameworks
     # Localytics 6.2.9
     # RadarSDK 3.7.5
-    spec.ios.vendored_frameworks = 'ShopFullyEngageSDK.framework', 'Frameworks/Localytics.xcframework', 'Frameworks/RadarSDK.xcframework'
+    spec.ios.vendored_frameworks = 'ShopFullyEngageSDK.xcframework', 'Frameworks/Localytics.xcframework', 'Frameworks/RadarSDK.xcframework'
 end
