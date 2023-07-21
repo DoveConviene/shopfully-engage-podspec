@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
     spec.name             = 'StreamFully'
-    spec.version          = '4.5.1'
+    spec.version          = '4.5.2'
     spec.summary          = 'ShopFully Group Analytics iOS SDK'
     spec.module_name   = 'StreamFully'
 
